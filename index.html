@@ -8,6 +8,88 @@
     <meta name="description"
         content="Family-owned since 1977. Meckley's Parts & Service offers auto repair, towing, salvage, metal recycling, and specialty square-body Chevy parts in Melbourne, IA.">
 
+    <!-- Local Business Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Meckley's Parts & Service",
+        "image": "https://meckleysparts.com/assets/images/Hero.jpg",
+        "url": "https://meckleysparts.com",
+        "telephone": "+1-641-227-3881",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "11308 Hwy S62 N",
+            "addressLocality": "Melbourne",
+            "addressRegion": "IA",
+            "postalCode": "50162",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.9486,
+            "longitude": -93.1027
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "17:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/meckleysparts/"
+        ],
+        "priceRange": "$$",
+        "description": "Family-owned since 1977. Auto repair, towing, salvage yard, metal recycling, and specialty Squarebody Chevy parts in Central Iowa.",
+        "foundingDate": "1977",
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": 41.9486,
+                "longitude": -93.1027
+            },
+            "geoRadius": "50 mi"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Auto Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Auto Repair"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Towing"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Salvage & Recycling"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Used Auto Parts"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,7 +134,7 @@
     <section class="hero" style="background-image: url('assets/images/Hero.jpg');">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1>Real Mechanics. Real Parts. The Home of Squareville.</h1>
+            <h1>Real Mechanics.<br>Real Parts.<br>The Home of Squareville.</h1>
             <p>Central Iowa’s trusted shop for auto repair, towing, and classic Squarebody Chevy trucks.</p>
             <div class="hero-buttons">
                 <a href="tel:641-227-3881" class="btn btn-primary">Call Now: 641-227-3881</a>

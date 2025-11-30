@@ -218,12 +218,15 @@ img {
 }
 
 .logo {
-    font-family: 'Pacifico', cursive;
+    font-family: var(--font-heading);
     /* Fallback if image not used, but using text for now as per design system note */
     font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
     color: var(--color-primary);
     display: flex;
     flex-direction: column;
+    align-items: center;
     line-height: 1;
 }
 
